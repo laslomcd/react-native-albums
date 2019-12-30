@@ -22,7 +22,7 @@ class AlbumList extends React.Component {
     render() {
         console.log(this.state)
         return (
-            <ScrollView style={{ marginBottom: 25 }}>
+            <ScrollView>
                 {this.renderAlbums()}
             </ScrollView>
         )
